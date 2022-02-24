@@ -1,8 +1,12 @@
-	
+
 body {
-      background-color: #e6e6e6; 
-      color: #031B3F; 
-      font-family: arial, helvetica, sans-serif; 
-      padding:15px; 
-      line-height:1.4em
-      }
+    background-color: #43d84f;
+    color: #120391;
+    font-family: arial, helvetica, sans-serif;
+    padding: 15px;
+    line-height: 1.4em
+}
+
+figure {
+    background-color: aqua;
+}
