@@ -6,7 +6,8 @@
     we see a namespace that declares this HTML to be written using XML syntax. That is also preferred for our courses as a neat and orderly code
     with clear syntax. 
     -->
-    <head> <!-- NOT FOR DISPLAY. This is a "meta" area. -->
+    <head>
+        <!-- NOT FOR DISPLAY. This is a "meta" area. -->
         <title>Starter HTML</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,42 +19,57 @@
      * On Mac, go to the browser and type command + o and browse to find this file to open it. 
      Look for the text in the <title> element in the tab above the browser search bar. Do you see it? 
     -->
+        <link rel="stylesheet" type="text/css" href="style.css"/>  
     </head>
-    
-    <body> <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
-        
+    <body>
+        <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
         <h1>Things of that Nature</h1>
-        <p>Here is some sample HTML to look at. This is a body paragraph with some <strong>inline</strong> code to feature some text. 
-            Here is <a href="https://www.twitch.tv/lightskinjesus92">a link to an external website</a>.</p>
-        <p>Each p element is a <strong>block</strong> element designed to make a block on the page.</p>
         
-        <h2>What are block elements good for?</h2>
+    <nav>
+        <a href="index.html">Home</a> | <a href="gallery.html">Gallery</a> | Resume | DIGIT 100 | Fun Stuff
+    </nav>
         
+        <p>A little about myself, I was born in Erie Pa, in 1992. Former military, I love to game
+            and spend time with family and friends.</p>
+        <h2>My favorite things</h2>
         <ul>
-            <li>headings</li>
-            <li>paragraphs</li>
-            <li>lists</li>
-            <li>tables</li>
-            <li>images</li>
-        </ul> 
-        <figure></figure>
-        <img src='Pictures/hyenalaugh.jpg'></img>
-        <img src="Pictures/hyenasmile.jpg"/>	
-        <h2>Starter HTML instructions</h2>
-        
-        <p>Let's replace the old index.html in your GitHub repo with this new one as you're starting to learn HTML. The hardest part of this may be learning how to browse
-        to find where you saved your files in your GitHub repo. You'll get used to this with practice and some organization.</p>
+            <li>Family</li>
+            <li>Sports(Football,Basketball)</li>
+            <li>Gaming</li>
+            <li>Food(Favorite food is mexican)</li>
+            <li>Fishing</li>
+        </ul>
+        <figure>
+            <img src="Pictures/hyenalaugh.jpg" alt="Laughing Hyena" />
+            <figcaption>Here is a laughing hyena.</figcaption>
+        </figure>
+        <figure>
+            <img src="Pictures/hyenasmile.jpg" alt="Young Hyena Smiling" />
+            <figcaption>Young hyena smiling.</figcaption>
+        </figure>
+        <h2>Technology and Electronics Enthusiast</h2>
+        <p>Technology and Electronics I find them fascinating and innovative. I remember how basic
+            they use to be, and to see the growth and evolution of them both has been fascinating to
+            say the least.I'm very excited to see where it goes. </p>
         <ol>
-            <li>In oXygen, go to File >> Save As, and <b>carefully browse</b> to find your GitHub repo and its <strong>docs/</strong> directory.</li>
-            <li>Save this file inside your docs/ directory as <b>index.html</b>. You should save over any index.html you've already saved there to replace with this one.
-                (Don't capitalize index.html, spelling counts and you need the .html part at the end.)</li>
+            <li>In oXygen, go to File >> Save As, and <b>carefully browse</b> to find your GitHub
+                repo and its <strong>docs/</strong> directory.</li>
+            <li>Save this file inside your docs/ directory as <b>index.html</b>. You should save
+                over any index.html you've already saved there to replace with this one. (Don't
+                capitalize index.html, spelling counts and you need the .html part at the end.)</li>
             <li>Open your Bash shell (Windows) or Terminal (Mac) at your GitHub repo.</li>
-            <li>Use your git commands now. Check the <em>status</em> of your repo, <em>add</em> your files for staging, <em>commit</em> them with a message, and <em>push</em> them to the repo.</li>
-            <li>Check your GitHub repo on the <q>code view</q> and the web view to see your updates.</li>
+            <li>Use your git commands now. Check the <em>status</em> of your repo, <em>add</em> your
+                files for staging, <em>commit</em> them with a message, and <em>push</em> them to
+                the repo.</li>
+            <li>Check your GitHub repo on the <q>code view</q> and the web view to see your
+                updates.</li>
         </ol>
-        
-        <p>For a more detailed view of HTML, look at <a href="index.html">the actual index.html on this introDH-Hub model website</a>. Feel free to work with that code as you're learning HTML.</p>
-        <p>The easiest way we know to create a new page for your site is to save the current one you're working on with a new filename in the same directory. 
-            Open the new file so you can keep working. You'll need to create <a href="innerPage.html">a special kind of relative link to connect the pages</a>, like this.</p>
+        <p>For a more detailed view of HTML, look at <a href="https://newtfire.github.io/introDH-Hub/">the actual index.html on
+                this introDH-Hub model website</a>. Feel free to work with that code as you're
+            learning HTML.</p>
+        <p>The easiest way we know to create a new page for your site is to save the current one
+            you're working on with a new filename in the same directory. Open the new file so you
+            can keep working. You'll need to create <a href="gallery.html">a special kind of
+                relative link to connect the pages</a>, like this.</p>
     </body>
 </html>
