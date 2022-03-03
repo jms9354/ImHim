@@ -1,16 +1,35 @@
 
 body {
-    background-color: #43d84f;
-    color: #120391;
+    background-color:#191970 ;
+    color: lime;
     font-family: arial, helvetica, sans-serif;
     padding: 15px;
     line-height: 1.4em
 }
 
-figure {
+figure {width: 30%;
     background-color: aqua;
 }
 img {
   width: 50%;
   height: auto;
+}
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
 }
