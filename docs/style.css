@@ -10,3 +10,7 @@ body {
 figure {
     background-color: aqua;
 }
+img {
+  width: 50%;
+  height: auto;
+}
